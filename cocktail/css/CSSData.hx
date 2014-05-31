@@ -8,6 +8,8 @@
 */
 package cocktail.css;
 
+import cocktail.selector.CSSSelectorData;
+
 
 /**
  * ...

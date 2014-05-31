@@ -10,8 +10,9 @@ package cocktail.css;
 
 import cocktail.css.CSSData;
 import cocktail.css.parsers.CSSParsersData;
-import cocktail.css.parsers.CSSSelectorParser;
-import cocktail.css.parsers.SelectorSerializer;
+import cocktail.selector.CSSSelectorParser;
+import cocktail.selector.SelectorSerializer;
+import cocktail.selector.CSSSelectorData;
 using StringTools;
 
 /**
