@@ -2197,18 +2197,18 @@ class CSSStyleParser
 			return value;
 		}
 		
-		var url:URL = cocktail.core.url.URL.fromString(value);
+		var url:URL = cocktail.url.URL.fromString(value);
 		
 		//absolute url don't need to be converted
-		if (cocktail.core.url.URL.isRelative(url) == false)
+		if (cocktail.url.URL.isRelative(url) == false)
 		{
 			return value;
 		}
 		
-		var typedBaseURL:URL = cocktail.core.url.URL.fromString(baseURL);
+		var typedBaseURL:URL = cocktail.url.URL.fromString(baseURL);
 
 		//append url to base url
-		return cocktail.core.url.URL.toString(cocktail.core.url.URL.appendURL(typedBaseURL, url));
+		return cocktail.url.URL.toString(cocktail.url.URL.appendURL(typedBaseURL, url));
 	}
 	
 	static inline function isHexaChar(c) {
