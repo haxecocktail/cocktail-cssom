@@ -6,11 +6,11 @@
  * Cocktail is available under the MIT license
  * http://www.silexlabs.org/labs/cocktail-licensing/
 */
-package cocktail.core.css.parsers;
+package cocktail.css.parsers;
 
 using StringTools;
-import cocktail.core.css.CSSData;
-import cocktail.core.css.parsers.CSSParsersData;
+import cocktail.css.CSSData;
+import cocktail.css.parsers.CSSParsersData;
 
 /**
  * This class is a parser whose role

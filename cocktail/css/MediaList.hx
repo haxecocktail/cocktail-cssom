@@ -6,7 +6,7 @@
  * Cocktail is available under the MIT license
  * http://www.silexlabs.org/labs/cocktail-licensing/
 */
-package cocktail.core.css;
+package cocktail.css;
 
 /**
  * An object that implements the MediaList 

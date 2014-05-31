@@ -6,11 +6,11 @@
  * Cocktail is available under the MIT license
  * http://www.silexlabs.org/labs/cocktail-licensing/
 */
-package cocktail.core.css;
+package cocktail.css;
 
-import cocktail.core.css.CSSData;
-import cocktail.core.css.parsers.CSSRulesParser;
-import cocktail.core.html.HTMLElement;
+import cocktail.css.CSSData;
+import cocktail.css.parsers.CSSRulesParser;
+import cocktail.html.HTMLElement;
  
 /**
  * The CSSStyleSheet interface represents

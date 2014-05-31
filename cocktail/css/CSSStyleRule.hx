@@ -6,12 +6,12 @@
  * Cocktail is available under the MIT license
  * http://www.silexlabs.org/labs/cocktail-licensing/
 */
-package cocktail.core.css;
+package cocktail.css;
 
-import cocktail.core.css.CSSData;
-import cocktail.core.css.parsers.CSSParsersData;
-import cocktail.core.css.parsers.CSSSelectorParser;
-import cocktail.core.css.parsers.SelectorSerializer;
+import cocktail.css.CSSData;
+import cocktail.css.parsers.CSSParsersData;
+import cocktail.css.parsers.CSSSelectorParser;
+import cocktail.css.parsers.SelectorSerializer;
 using StringTools;
 
 /**

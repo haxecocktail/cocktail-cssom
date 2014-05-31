@@ -6,9 +6,9 @@
  * Cocktail is available under the MIT license
  * http://www.silexlabs.org/labs/cocktail-licensing/
 */
-package cocktail.core.css.parsers;
+package cocktail.css.parsers;
 
-import cocktail.core.css.CSSData;
+import cocktail.css.CSSData;
 
 /**
  * This class serialize a CSS selector
