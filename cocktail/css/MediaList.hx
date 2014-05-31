@@ -17,28 +17,28 @@ package cocktail.css;
 class MediaList 
 {
 
-	public var mediaText:String;
-	
-	public var length(default, null):Int;
-	
-	public function new() 
-	{
-		
-	}
-	
-	public function item(index:Int):String
-	{
-		return null;
-	}
-	
-	public function appendMedium(medium:String):Void
-	{
-		
-	}
-	
-	public function deleteMedium(medium:String):Void
-	{
-		
-	}
-	
+    public var mediaText:String;
+    
+    public var length(default, null):Int;
+    
+    public function new() 
+    {
+        
+    }
+    
+    public function item(index:Int):String
+    {
+        return null;
+    }
+    
+    public function appendMedium(medium:String):Void
+    {
+        
+    }
+    
+    public function deleteMedium(medium:String):Void
+    {
+        
+    }
+    
 }
