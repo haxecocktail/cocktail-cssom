@@ -1,6 +1,8 @@
 ## Flash 9+
 -main TestMain
 -lib munit
+-lib cocktail-url
+-lib cocktail-css-selector
 -lib hamcrest
 -cp src
 
@@ -14,6 +16,8 @@
 -main TestMain
 -lib munit
 -lib hamcrest
+-lib cocktail-url
+-lib cocktail-css-selector
 -cp src
 
 -cp test
@@ -25,6 +29,8 @@
 ## JavaScript
 -main TestMain
 -lib munit
+-lib cocktail-url
+-lib cocktail-css-selector
 -lib hamcrest
 -cp src
 
@@ -37,6 +43,8 @@
 -main TestMain
 -lib munit
 -lib hamcrest
+-lib cocktail-url
+-lib cocktail-css-selector
 -cp src
 
 -cp test
@@ -48,6 +56,8 @@
 -main TestMain
 -lib munit
 -lib hamcrest
+-lib cocktail-url
+-lib cocktail-css-selector
 -cp src
 
 -cp test
