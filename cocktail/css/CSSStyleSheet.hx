@@ -10,7 +10,7 @@ package cocktail.css;
 
 import cocktail.css.CSSData;
 import cocktail.css.parsers.CSSRulesParser;
-import cocktail.html.HTMLElement;
+import js.html.HtmlElement;
  
 /**
  * The CSSStyleSheet interface represents
@@ -46,7 +46,7 @@ class CSSStyleSheet extends StyleSheet
 	/**
 	 * class constructor
 	 */
-	public function new(stylesheet:String, origin:PropertyOriginValue, ownerNode:HTMLElement = null, href:String = null, parentStyleSheet:StyleSheet = null, ownerRule:CSSRule = null) 
+	public function new(stylesheet:String, origin:PropertyOriginValue, ownerNode:HtmlElement = null, href:String = null, parentStyleSheet:StyleSheet = null, ownerRule:CSSRule = null) 
 	{
 		super(stylesheet, ownerNode, href, parentStyleSheet);
 		cssRules = new CSSRuleList();

@@ -1,7 +1,7 @@
 package;
 
-import cocktail.core.css.CSSData;
-import cocktail.core.css.CSSConstants;
+import cocktail.css.CSSData;
+import cocktail.css.CSSConstants;
 
 class CSSTest
 {
