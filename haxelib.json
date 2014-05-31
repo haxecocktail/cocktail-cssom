@@ -1,0 +1,8 @@
+{
+    "name": "cocktail-cssom",
+    "url": "https://github.com/haxecocktail/cocktail-cssom",
+    "licence": "MIT",
+    "version": "0.0.1",
+    "description": "Implementation of the CSS Objet Model",
+    "contributors": ["Yannick Dominguez"]
+}
