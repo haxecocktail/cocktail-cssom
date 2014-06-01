@@ -8,7 +8,11 @@
 */
 package cocktail.css;
 
-import js.html.HtmlElement;
+#if js
+import js.html.Element;
+#else
+import cocktail.dom.Element;
+#end
 
 /**
  * The StyleSheet interface represents an abstract,
@@ -34,7 +38,7 @@ class StyleSheet
      * The DOM node associated with the style
      * sheet or null if there is no associated DOM node.
      */
-    public var ownerNode(default, null):HtmlElement;
+    public var ownerNode(default, null):Element;
     
     /**
      * The style sheet that is the parent of the style sheet.
@@ -64,7 +68,7 @@ class StyleSheet
      * class constructor
      * @param    stylesheet the whole css style sheet
      */
-    public function new(stylesheet:String, ownerNode:HtmlElement = null, href:String = null, parentStyleSheet:StyleSheet = null) 
+    public function new(stylesheet:String, ownerNode:Element = null, href:String = null, parentStyleSheet:StyleSheet = null) 
     {
         this.ownerNode = ownerNode;
         this.href = href;
