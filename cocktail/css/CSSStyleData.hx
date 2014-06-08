@@ -8,7 +8,7 @@
 */
 package cocktail.css;
 
-import cocktail.selector.CSSSelectorData;
+import cocktail.css.CSSSelectorData;
 
 
 /**
@@ -16,48 +16,6 @@ import cocktail.selector.CSSSelectorData;
  * @author Yannick DOMINGUEZ
  */
 
-typedef CSSRuleList = Array<CSSRule>;
-
-class TypedPropertyVO {
-    
-    public var index:Int;
-    public var typedValue:CSSPropertyValue;
-    public var important:Bool;
-    
-    public function new()
-    {
-        
-    }
-}
-
-class PropertyVO {
-    
-    public var important:Bool;
-    public var origin:PropertyOriginValue;
-    public var typedValue:CSSPropertyValue;
-    public var selector:SelectorVO;
-    
-    public function new()
-    {
-        this.important = false;
-    }
-}
-
-class StyleDeclarationVO {
-    
-    public var style:CSSStyleDeclaration;
-    public var selector:SelectorVO;
-    
-    public function new()
-    {
-        
-    }
-}
-
-enum PropertyOriginValue {
-    AUTHOR;
-    USER_AGENT;
-}
 
 /**
  * Represents a color with

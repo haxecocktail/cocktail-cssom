@@ -9,7 +9,8 @@
 package cocktail.css.parsers;
 
 import cocktail.css.CSSConstants;
-import cocktail.css.CSSData;
+import cocktail.css.CSSStyleData;
+import cocktail.css.CSSOMData;
 import cocktail.css.parsers.CSSParsersData;
 import cocktail.url.URL;
 using StringTools;

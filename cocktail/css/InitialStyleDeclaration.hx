@@ -8,7 +8,7 @@
 */
 package cocktail.css;
 
-import cocktail.css.CSSData;
+import cocktail.css.CSSStyleData;
 import cocktail.css.CSSConstants;
 
 /**

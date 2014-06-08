@@ -8,11 +8,11 @@
 */
 package cocktail.css;
 
-import cocktail.css.CSSData;
+import cocktail.css.CSSStyleData;
 import cocktail.css.parsers.CSSParsersData;
-import cocktail.selector.CSSSelectorParser;
-import cocktail.selector.SelectorSerializer;
-import cocktail.selector.CSSSelectorData;
+import cocktail.css.parsers.CSSSelectorParser;
+import cocktail.css.parsers.CSSSelectorSerializer;
+import cocktail.css.CSSSelectorData;
 using StringTools;
 
 /**
@@ -189,7 +189,7 @@ class CSSStyleRule extends CSSRule
         for (i in 0...selectors.length)
         {
             var selector:SelectorVO = selectors[i];
-            serializedSelectors += SelectorSerializer.serialize(selector);
+            serializedSelectors += CSSSelectorSerializer.serialize(selector);
             
             if (i < selectors.length - 1)
             {

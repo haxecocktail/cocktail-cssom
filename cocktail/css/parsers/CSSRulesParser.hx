@@ -9,7 +9,7 @@
 package cocktail.css.parsers;
 
 using StringTools;
-import cocktail.css.CSSData;
+import cocktail.css.CSSStyleData;
 import cocktail.css.parsers.CSSParsersData;
 
 /**

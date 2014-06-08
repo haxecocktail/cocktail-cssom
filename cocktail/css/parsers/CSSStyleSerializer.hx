@@ -8,7 +8,7 @@
 */
 package cocktail.css.parsers;
 
-import cocktail.css.CSSData;
+import cocktail.css.CSSStyleData;
 
 /**
  * This class serialize a CSS property value 
