@@ -2,9 +2,6 @@
 -main TestMain
 -lib munit
 -lib cocktail-url
--lib cocktail-css-selector
--lib cocktail-dom
--lib cocktail-dom-event
 -lib hamcrest
 -cp src
 
@@ -19,9 +16,6 @@
 -lib munit
 -lib hamcrest
 -lib cocktail-url
--lib cocktail-css-selector
--lib cocktail-dom
--lib cocktail-dom-event
 -cp src
 
 -cp test
@@ -34,7 +28,6 @@
 -main TestMain
 -lib munit
 -lib cocktail-url
--lib cocktail-css-selector
 -lib hamcrest
 -cp src
 
@@ -48,9 +41,6 @@
 -lib munit
 -lib hamcrest
 -lib cocktail-url
--lib cocktail-css-selector
--lib cocktail-dom-event
--lib cocktail-dom
 -cp src
 
 -cp test
@@ -63,9 +53,6 @@
 -lib munit
 -lib hamcrest
 -lib cocktail-url
--lib cocktail-css-selector
--lib cocktail-dom-event
--lib cocktail-dom
 -cp src
 
 -cp test

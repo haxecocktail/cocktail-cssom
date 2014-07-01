@@ -8,12 +8,6 @@
 */
 package cocktail.css;
 
-#if js
-import js.html.Element;
-#else
-import cocktail.dom.Element;
-#end
-
 /**
  * The StyleSheet interface represents an abstract,
  * base style sheet.
@@ -37,8 +31,12 @@ class StyleSheet
     /**
      * The DOM node associated with the style
      * sheet or null if there is no associated DOM node.
+     *
+     * note: typed as Dynamic for convenience, since this is
+     * only shared element between CSSOM and DOM, this allows
+     * to not be dependant on the DOM libraries
      */
-    public var ownerNode(default, null):Element;
+    public var ownerNode(default, null):Dynamic;
     
     /**
      * The style sheet that is the parent of the style sheet.
@@ -68,7 +66,7 @@ class StyleSheet
      * class constructor
      * @param    stylesheet the whole css style sheet
      */
-    public function new(stylesheet:String, ownerNode:Element = null, href:String = null, parentStyleSheet:StyleSheet = null) 
+    public function new(stylesheet:String, ownerNode:Dynamic = null, href:String = null, parentStyleSheet:StyleSheet = null) 
     {
         this.ownerNode = ownerNode;
         this.href = href;
